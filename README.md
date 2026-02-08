@@ -1,4 +1,4 @@
-# Engineering Study Assistant
+# AI Study Assistant
 
 A Streamlit-based AI study assistant designed to help engineering students understand problems and validate their reasoning using open-source large language models.
 
