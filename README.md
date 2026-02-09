@@ -24,7 +24,7 @@ The app provides two core capabilities:
 - **Subject Selection:**
   - Allows students to choose from a variety of engineering topics, including as calculus, physics, statics, dynamics, circuits, materials, and thermo.
 
-- **Well-Formatted Responses:**
+- **Well-Formatted, Easy-to-Read Responses:**
   - No chain-of-thought leakage.
   - Markdown formatting.
 
@@ -72,10 +72,3 @@ pip install streamlit requests
 streamlit run app.py
 ```
 The app will open automatically in your browser.
-
-
-### Example Use Cases
-
-* Understanding physics, statics, dynamics, or circuits problems
-* Checking homework solutions for conceptual or algebraic mistakes
-* Practicing step-by-step problem-solving with feedback
