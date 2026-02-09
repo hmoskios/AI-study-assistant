@@ -10,20 +10,23 @@ The app provides two core capabilities:
 
 ## Features
 
-- **Explain Mode**
+- **Explain Mode:**
   - Generates clear, step-by-step explanations.
   - Defines variables, shows units, and highlights common mistakes.
   - Adjustable explanation depth (concise vs. detailed).
 
-- **Verify My Reasoning**
+- **Verify My Reasoning:**
   - Evaluates a student’s attempted solution.
   - Flags the first incorrent step.
   - Explains what was done well and what went wrong.
   - Provides a corrected solution outline and sanity checks.
 
-- **Subject Selection**
+- **Subject Selection:**
   - Allows students to choose from a variety of engineering topics, including as calculus, physics, statics, dynamics, circuits, materials, and thermo.
 
+- **Well-Formatted Responses:**
+  - No chain-of-thought leakage.
+  - Markdown formatting.
 
 ---
 
