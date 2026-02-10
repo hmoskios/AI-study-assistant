@@ -35,8 +35,7 @@ The app provides two core capabilities:
 - **Python**
 - **Streamlit** (UI)
 - **Ollama** (local LLM inference)
-- **Open-source LLMs** (llama3.2)
-- **Git & GitHub** (version control)
+- **Open-Source LLMs** (llama3.2)
 
 ---
 
@@ -57,17 +56,17 @@ This design also has the ability to easily switch inference backends based on co
 - Python 3.10+
 - Ollama installed
 
-### 1. Install Ollama and pull the model
+### 1. Pull the Model:
 ```bash
 ollama pull llama3.2
 ```
 
-### 2. Install Python dependencies
+### 2. Install Python Dependencies:
 ```bash
 pip install streamlit requests
 ```
 
-### 3. Run the app
+### 3. Run the App:
 ```bash
 streamlit run app.py
 ```
