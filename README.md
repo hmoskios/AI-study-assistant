@@ -56,17 +56,23 @@ This design also has the ability to easily switch inference backends based on co
 - Python 3.10+
 - Ollama installed
 
-### 1. Pull the Model:
+### 1. Clone the Repository
+```bash
+git clone https://github.com/hmoskios/AI-study-assistant.git
+cd AI-study-assistant
+```
+
+### 2. Pull the Model
 ```bash
 ollama pull llama3.2
 ```
 
-### 2. Install Python Dependencies:
+### 3. Install Python Dependencies
 ```bash
-pip install streamlit requests
+pip install -r requirements.txt
 ```
 
-### 3. Run the App:
+### 4. Run the App
 ```bash
 streamlit run app.py
 ```
